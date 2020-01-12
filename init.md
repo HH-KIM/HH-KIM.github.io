@@ -18,10 +18,13 @@
    - Business
    ```
      Layerd 아키텍쳐
-     
-     Application 
+   
      UI
+     Application 
      Domain
      Infrastructure
    ```
-      
+   각각의 layer 는 자신의 레이어의 바로 위 아래의 레이어와 통신할 수 있고 의존되어있다.
+   UI 레이어가 도메인레이어와 인프라스트럭쳐 레이어에 접근을 할 수 없다.
+   
+   - 복잡한 프로그램의 경우 각 각의 레이어가 분리되어 있어야 개발과 유지보수가 쉬워짐
